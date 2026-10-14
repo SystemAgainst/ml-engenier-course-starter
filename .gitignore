@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+data/raw/
+artifacts/
