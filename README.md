@@ -7,6 +7,7 @@
 ```text
 ml-engenier-course-starter/
 ├── Python Base/          # Основы Python и домашние задания
+│   ├── _01_print/ … _23_try_except/
 │   └── homework/
 ├── Mathematics/          # Математика для машинного обучения
 │   └── homework/
@@ -16,7 +17,6 @@ ml-engenier-course-starter/
 │   └── homework/
 ├── Machine Learning/     # Модели, обучение и оценка качества
 │   └── homework/
-├── python_lessons/       # Уже имеющиеся уроки и примеры Python
 └── templates/            # Шаблон описания домашнего задания
 ```
 
@@ -64,10 +64,10 @@ git push -u origin homework/python-01
 
 ## Запуск существующих уроков Python
 
-В `python_lessons` сохранены настройки Python 3.12 и зависимости Poetry.
+В `Python Base` сохранены настройки Python 3.12 и зависимости Poetry.
 
 ```bash
-cd python_lessons
+cd "Python Base"
 poetry install
 poetry run python _01_print/_1_print_func.py
 ```
@@ -75,8 +75,8 @@ poetry run python _01_print/_1_print_func.py
 Для нового задания указывайте команды запуска и зависимости в его README. Выполняйте Python-задания из окружения с нужными пакетами, например:
 
 ```bash
-cd python_lessons
-poetry run python "../Python Base/homework/01_variables/solution.py"
+cd "Python Base"
+poetry run python homework/01_variables/solution.py
 ```
 
 В Git сохраняются исходники, notebook, небольшие учебные данные и описания работ. Виртуальные окружения, кэш, локальные секреты и крупные наборы данных исключены через `.gitignore`. Для внешних данных указывайте источник и инструкцию получения в README задания.
