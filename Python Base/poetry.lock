@@ -448,6 +448,21 @@ optional = ["typing-extensions (>=4)"]
 re2 = ["google-re2 (>=1.1)"]
 
 [[package]]
+name = "python-dotenv"
+version = "1.2.4"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "python_dotenv-1.2.4-py3-none-any.whl", hash = "sha256:42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc"},
+    {file = "python_dotenv-1.2.4.tar.gz", hash = "sha256:f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "requests"
 version = "2.34.2"
 description = "Python HTTP for Humans."
@@ -530,4 +545,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.13"
-content-hash = "4e56ecd1940aba984042926d76dbf3718d07f41472d51d27bf17dc4be4cad27e"
+content-hash = "219cbf7bfd4fb9bbd0b993c14927df3218a13a9c1e2814472a2d44337e4ce5b1"
