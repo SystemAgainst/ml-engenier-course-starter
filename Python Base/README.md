@@ -31,6 +31,7 @@
 | [_21_sorted_filter_func](_21_sorted_filter_func/) | sorted filter func |
 | [_22_lambda_func](_22_lambda_func/) | lambda func |
 | [_23_try_except](_23_try_except/) | try except |
+| [_24_classes](_24_classes/) | classes |
 
 ## Настройка окружения
 
